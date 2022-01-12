@@ -258,8 +258,8 @@ if __name__ == '__main__':
         # 구성종목 : KODEX 미국FANG플러스(H) / KODEX 미국나스닥100레버리지(합성 H) / TIGER 미국필라델피아반도체나스닥 / KINDEX KRX금현물
         # 구성종목 : TIGER 미국나스닥100 / KBSTAR 미국S&P500 / TIGER 글로벌리튬&2차전지SOLACTIVE(합성) / TIGER 글로벌메타버스액티브
         bought_list = []     # 매수 완료된 종목 리스트
-        target_buy_count = 6 # 매수할 종목 수
-        buy_percent = 0.225   # 종목 비중
+        target_buy_count = 4 # 매수할 종목 수
+        buy_percent = 0.25   # 종목 비중
         printlog('check_creon_system() :', check_creon_system())  # 크레온 접속 점검
         stocks = get_stock_balance('ALL')      # 보유한 모든 종목 조회
         total_cash = int(get_current_cash())   # 100% 증거금 주문 가능 금액 조회
