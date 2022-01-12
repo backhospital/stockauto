@@ -37,4 +37,4 @@ def post_message(token, channel, text):
  
 myToken = "xoxb-****(slack 쿠폰번호)"
  
-post_message(myToken,"#stock","삼성전자우 매도호가 "+ str(offer))
+post_message(myToken,"#slack 채널명","삼성전자우 매도호가 "+ str(offer))
